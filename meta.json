@@ -1,9 +1,18 @@
 {
-  "image": "https://miro.medium.com/max/1120/1*k_EY7dcLYB5Z5k8zhMcv6g.png",
-  "tokenId": 0,
-  "name": "ZipBand 0",
-  "attributes": {
-    "trait_type": "Eye Color",
-    "value": "Black"
+  "title": "ZipBand 0",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Identifies the asset to which this NFT represents"
+    },
+    "description": {
+      "type": "string",
+      "description": "Describes the asset to which this NFT represents"
+    },
+    "image": {
+      "type": "string",
+      "description": "https://miro.medium.com/max/1120/1*k_EY7dcLYB5Z5k8zhMcv6g.png"
+    }
   }
 }
